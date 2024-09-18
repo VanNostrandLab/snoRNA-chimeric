@@ -1,5 +1,16 @@
 # snoRNA-chimeric
 snoRNA-chimeric pipeline is designed to identify snoRNA-focused chimeric interactions.
+## Description/methods:
+* Demultiplexes reads using inline barcodes
+* Trims adapters with cutadapt
+* maps to repeat elements and genome with STAR to remove nonchimeric reads
+* map filtered reads to snoRNA reference with bowtie to identify snoRNA chimeric reads
+* filter the mapped chimeric reads including snoRNAs with given criteria (>18nt) with "find_putitavie_target"
+* map the reads passed the cirteira to snoRNA again to remove snoRNA:snoRNA chimeirc reads
+* map the non-snoRNA fragment from the reads to target RNA sequence(rRNA,tRNA,snRNA)
+* map the unmapped reads to hg19 to identify other interactions
+* identify the high-confident chimeric targets by filtering the mapped reads via given criteira (>16nt, gap between snoRNAs less than 4nt) with "identify_chimeric_reads"
+
 ## Workflow in commandline
 
 ### sno-chimeras
