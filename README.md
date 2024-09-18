@@ -1,5 +1,5 @@
 # snoRNA-chimeric
-Processing pipeline for snoRNA-focused chimeric eCLIP
+snoRNA-chimeric pipeline is designed to identify snoRNA-focused chimeric interactions.
 ## Workflow in commandline
 
 ### sno-chimeras
