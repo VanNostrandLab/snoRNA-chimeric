@@ -11,6 +11,22 @@ snoRNA-chimeric pipeline is designed to identify snoRNA-focused chimeric interac
 * map the unmapped reads to hg19 to identify other interactions
 * identify the high-confident chimeric targets by filtering the mapped reads via given criteira (>16nt, gap between snoRNAs less than 4nt) with "identify_chimeric_reads"
 
+## Installation:
+### The pipeline has been tested using the following softwares and their versions:
+* anytree=2.8.0
+* bowtie=1.3.0
+* clipper=2.0.0
+* cutadapt=3.2
+* python=2.7.16
+pysam=0.16.0.1
+numpy=1.19.5
+pandas=1.2.1
+* samtools=1.11
+* star=STAR_2.4.0j
+* ucsc-tools=377
+* umi_tools=1.0.0
+* 
+
 ## Workflow in commandline
 
 ### sno-chimeras
