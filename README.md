@@ -18,9 +18,9 @@ snoRNA-chimeric pipeline is designed to identify snoRNA-focused chimeric interac
 * clipper=2.0.0
 * cutadapt=3.2
 * python=2.7.16
-** pysam=0.16.0.1
-** numpy=1.19.5
-** pandas=1.2.1
+  pysam=0.16.0.1
+  numpy=1.19.5
+  pandas=1.2.1
 * samtools=1.11
 * star=STAR_2.4.0j
 * ucsc-tools=377
