@@ -67,6 +67,10 @@ snoRNA-chimeric pipeline is designed to identify snoRNA-focused chimeric interac
 * wheel=0.36.2
 * xopen=1.1.0
 
+### Additional requirments/prerequisite files:
+* the custom scripts required for the sno-chimeras.py are in the folder named "scripts"
+* the reference sequence required for snoRNA and target RNA alignment are in the folder named "reference sequence source"
+  
 ## Workflow in commandline
 
 ### sno-chimeras
