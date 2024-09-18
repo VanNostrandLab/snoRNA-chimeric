@@ -15,17 +15,57 @@ snoRNA-chimeric pipeline is designed to identify snoRNA-focused chimeric interac
 ### The pipeline has been tested using the following softwares and their versions:
 * anytree=2.8.0
 * bowtie=1.3.0
+* biopython=1.78
+* certifi=2021.10.8
 * clipper=2.0.0
+* cmder=3.8
 * cutadapt=3.2
-* python=2.7.16
-  pysam=0.16.0.1
-  numpy=1.19.5
-  pandas=1.2.1
+* cycler=0.10.0
+* Cython=0.29.24
+* dill=0.3.3
+* dnaio=0.5.0
+* fire=0.4.0
+* future=0.18.2
+* graphviz=0.19.1
+* HTSeq=0.13.5
+* isal=0.3.0
+* iToolBox=0.0.3
+* Jinja2=3.0.3
+* joblib=1.0.1
+* kiwisolver=1.3.1
+* loguru=0.5.3
+* Mako=1.1.4
+* MarkupSafe=2.0.0
+* multiprocess=0.70.11.1
+* olefile=0.46
+* pathos=0.2.7
+* Pillow=8.1.0
+* pip=21.0
+* pox=0.2.9
+* pysam=0.16.0.1
+* numpy=1.19.5
+* pandas=1.2.1
+* matplotlib=3.3.3
+* scipy=1.6.0
+* pybedtools=0.8.2
+* pybktree=1.1
+* pyparsing=2.4.7
+* python-dateutil=2.8.1
+* pytz=2020.5
 * samtools=1.11
+* regex=2020.11.13
+* ruffus=2.8.4
+* scikit-learn=0.24.2
+* seqflow=0.1.2
+* setuptools=49.6.0.post20210108
+* six=1.15.0
+* termcolor=1.1.0
+* threadpoolctl=2.2.0
+* tornado=6.1
 * star=STAR_2.4.0j
-* ucsc-tools=377
 * umi_tools=1.0.0
-* 
+* wheel=0.36.2
+* xopen=1.1.0
 
 ## Workflow in commandline
 
